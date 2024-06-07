@@ -1,0 +1,29 @@
+div{
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    background-color: black;
+    border:5px solid white;
+    color:white;
+}
+#logo{
+    color: orange;
+    font-size: 25px;
+}
+a{
+    padding:100px;
+    text-decoration: none ;
+}
+button{
+    background-color: yellow;
+}
+
+#d1{
+
+    background-color: brown;
+    display: inline;
+}
+#b1{
+    background-color: pink;
+    display: block;
+}

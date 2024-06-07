@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 32px;
+    width: 100%;
+}
+h1{
+    border: dashed black;
+    width: 30%;
+    color: blue;
+    font-size: 2rem;
+    padding: 0.5em;
+}
+p{
+
+    
+    font-size: 50vw;
+    background-color: gold;
+
+}
+    

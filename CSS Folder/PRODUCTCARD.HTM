@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="productcard.css">
+</head>
+<body>
+    <div class="product">
+    <h1>Original Bkeh</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div class="product-pic"></div>
+    <div class="product-color">
+     <span class="blue active" data-color="#7ed6df" data-pic="url(1.jpg)"></span>
+     <span class="green" data-color="#badc58" data-pic="url(2.jpg)"></span>
+     <span class="yellow" data-color="#f9ca24"data-pic="url(3.jpg)"></span>
+     <span class="rose" data-color="#ff7979" data-pic="url(4.jpg)"></span>
+    </div>
+    <div class="product-info">
+        <div class="product-price">$180</div>
+        <a href="#" class="product-button"> Add to Cart</a>
+    </div>
+</div>
+<script>
+    $(".product-color span").click(function(){
+        $(".product-color span").removeClass("active");
+        $(this).addClass("active");
+        $("body").css("background",$(this).attr("data-color"));
+        $("product-price").css("color",$(this).attr("data-color"));
+        $("product-button").css("color",$(this).attr("data-color"));
+        $("product-pic").css("background-image",$(this).attr("data-pic"));
+});
+</script>
+</body>
+</html>

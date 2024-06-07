@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    background-color: pink;
+    justify-content: space-evenly;
+}
+li{
+   /* background-color: aqua;*/
+    list-style-type: none;
+    
+}
+a{
+   text-decoration: none;
+   color: red;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    align-self: flex-start;
+   }
+.outer{
+ height: 400px;
+ width: 400px;
+ background-color: aqua;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}

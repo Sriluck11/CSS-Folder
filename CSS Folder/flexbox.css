@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 500px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+    /*flex-wrap: wrap;
+   align-items: center;
+    align-content: flex-start;*/
+}
+#b1{
+    background-color: blue;
+    align-self: flex-start;
+}
+#b2{
+    background-color: aqua;
+    height: 300px;
+    flex-grow: 0.5;
+    }
+#b3{
+    background-color: brown;
+}
+#b4{
+    background-color: yellow;
+}
+#b5{
+    background-color: pink;
+
+}

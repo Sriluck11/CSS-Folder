@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 100px; 
+    margin: 25px;
+    padding: 50px;
+    display: inline-block;
+    
+ }
+
+#b1{
+    background-color: rgba(0,255,0,0.5);
+}
+#b2{
+    background-color: rgba(0,255,0,0.7);
+}
+#b3{
+
+    background-color: rgba(0,255,0,1);
+}

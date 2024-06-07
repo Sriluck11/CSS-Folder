@@ -1,0 +1,25 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+#b1{
+    position: static;
+    bottom: 50px;
+}
+#b2{
+    position: relative;
+    right: -30px;
+}
+#b3{
+    position: sticky;
+    top : 50px;
+}
+#b4{
+    position:fixed ;
+    left:20px ;
+    z-index: -5;
+
+}

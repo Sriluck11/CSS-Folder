@@ -1,0 +1,33 @@
+div{
+    background-color: blue;
+    color: white;
+    font-family: monospace;
+    line-height:normal;
+}
+.heading{
+    color: red;
+}
+button{
+    background-color:green;
+    font-family: Verdana;
+}
+div{
+    text-align: center;
+    text-transform: uppercase;
+}
+h1{
+    color: limegreen;
+    text-decoration:wavy black underline;
+    font-weight: lighter;
+    font-family: cursive;
+}
+h2{
+    text-decoration: dotted black overline;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    text-decoration: double black line-through;
+    font-weight: 900;
+    text-transform: capitalize;
+}
