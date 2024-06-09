@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(0,0,0,0.7) url("food.jpg") center center fixed;
+    background-size: cover;
+    background-blend-mode: darken ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+    color: orangered;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    transition: 2s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+.navbar, .reservation{
+    padding: 8px;
+
+    
+}
+.content{
+    position: center;
+    color: #fff;
+    top: 40%;
+    left: 30%;
+    margin-top: 18%;
+}
+.content h3{
+    font-size: 25px;
+    margin-left: 43%;
+}
+.content h1{
+    font-size: 50px;
+    margin-left: 18%;
+    
+}
+.content p{
+    text-align: center;
+    margin-top: 22px;
+    margin-left: 5%;
+}
+.search{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 40%;
+}
+.search input{
+    outline: none;
+    border: none;
+    padding: 12px 40px;
+    size: 1em;
+    width: 100%;
+}
+.submit{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 48%;
+}
+.submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: orangered;
+}
+.sub-menu-5{
+    display: none;
+
+}
+.navbar ul li:hover .sub-menu-5{
+    display: block;
+    position: absolute;
+    background:orangered;
+    margin-top: 15px;
+    margin-left: -15px ;
+
+}
+.navbar  ul li:hover .sub-menu-5 ul{
+    display: block;
+    margin: 10px;
+}
+.navbar  ul li:hover .sub-menu-5 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.navbar ul li:hover .sub-menu-5 ul li:last-child{
+    border-bottom: none;
+}
+.navbar  ul li:hover .sub-menu-5 ul li a:hover{
+    color: red;
+}
+.sub-menu-4{
+    display: none;
+
+}
+.navbar ul li:hover .sub-menu-4{
+    display: block;
+    position: absolute;
+    background:orangered;
+    margin-top: 15px;
+    margin-left: -15px ;
+
+}
+.navbar  ul li:hover .sub-menu-4 ul{
+    display: block;
+    margin: 10px;
+}
+.navbar  ul li:hover .sub-menu-4 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.navbar ul li:hover .sub-menu-4 ul li:last-child{
+    border-bottom: none;
+}
+.navbar  ul li:hover .sub-menu-4 ul li a:hover{
+    color: red;
+}
+.sub-menu-3{
+    display: none;
+
+}
+.navbar ul li:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    background:orangered;
+    margin-top: 15px;
+    margin-left: -15px ;
+
+}
+.navbar  ul li:hover .sub-menu-3 ul{
+    display: block;
+    margin: 10px;
+}
+.navbar  ul li:hover .sub-menu-3 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.navbar ul li:hover .sub-menu-3 ul li:last-child{
+    border-bottom: none;
+}
+.navbar  ul li:hover .sub-menu-3 ul li a:hover{
+    color: red;
+}
+.sub-menu-6{
+    display: none;
+
+}
+.navbar ul li:hover .sub-menu-6{
+    display: block;
+    position: absolute;
+    background:orangered;
+    margin-top: 15px;
+    margin-left: -15px ;
+
+}
+.navbar  ul li:hover .sub-menu-6 ul{
+    display: block;
+    margin: 10px;
+}
+.navbar  ul li:hover .sub-menu-6 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.navbar ul li:hover .sub-menu-6 ul li:last-child{
+    border-bottom: none;
+}
+.navbar  ul li:hover .sub-menu-3 ul li a:hover{
+    color: red;
+}
